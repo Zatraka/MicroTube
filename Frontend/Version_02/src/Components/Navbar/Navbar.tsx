@@ -5,7 +5,7 @@ import logo_Icon from '../../assets/Icons/logo.png'
 import search_Icon from '../../assets/Icons/search.png'
 import Bockmark_Icon from '../../assets/Icons/bookmark.png'
 import Bell_Icon from '../../assets/Icons/bell.png'
-//import Profile_Icon from '../../assets/Icons/OneUser.png'
+import Profile_Icon from '../../assets/Icons/OneUser.png'
 
 const Navbar = () => {
   return (
@@ -21,13 +21,14 @@ const Navbar = () => {
             <img className='nav-Search' src= {search_Icon} alt=''/>
           </div>
 
-          
+
 
         </div>
 
         <div className='nav-right flex-div'>
             <img className='nav-upload' src= {Bockmark_Icon} alt='rightside_Menu'/>    
             <img className='nav-Bell' src= {Bell_Icon} alt=''/>
+            <img className='nav-Profile' src= {Profile_Icon} alt=''/>
         </div>
 
     </nav>
