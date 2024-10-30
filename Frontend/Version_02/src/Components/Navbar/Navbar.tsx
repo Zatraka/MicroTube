@@ -6,7 +6,7 @@ import Bockmark_Icon from '../../assets/Icons/bookmark.png'
 import Bell_Icon from '../../assets/Icons/bell.png'
 import Profile_Icon from '../../assets/Icons/OneUser.png'
 
-//import Searchbar from './Components/Searchbar/Searchbar.tsx'
+import Searchbar from '../Searchbar/Searchbar.tsx'
 
 
 const Navbar = () => {
@@ -17,6 +17,7 @@ const Navbar = () => {
             <img className = 'Logo' src={logo_Icon} alt="" />
         </div>
 
+        <Searchbar /> 
         
         <div className='nav-right flex-div'>
             <img className='nav-upload' src= {Bockmark_Icon} alt='rightside_Menu'/>    
