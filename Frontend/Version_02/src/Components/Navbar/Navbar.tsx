@@ -14,15 +14,15 @@ const Navbar = () => {
     <nav className='flex-div'>
         <div className='nav-left flex-div'>
             <img className = 'menu-Icon' src={menu_Icon} alt="leftside_Menu" />
-            <img className = 'Logo' src={logo_Icon} alt="" />
+            <a href='../../Pages/Home'><img className = 'Logo' src={logo_Icon} alt="" /></a>
         </div>
 
         <Searchbar /> 
         
         <div className='nav-right flex-div'>
-            <img className='nav-upload' src= {Bockmark_Icon} alt='rightside_Menu'/>    
-            <img className='nav-Bell' src= {Bell_Icon} alt=''/>
-            <img className='nav-Profile' src= {Profile_Icon} alt=''/>
+             <a href='/home'><img className='nav-upload' src= {Bockmark_Icon} alt='rightside_Menu'/></a>    
+             <a href='/home'><img className='nav-Bell' src= {Bell_Icon} alt=''/></a>
+             <a href='/home'><img className='nav-Profile' src= {Profile_Icon} alt=''/></a>
         </div>
 
     </nav>
