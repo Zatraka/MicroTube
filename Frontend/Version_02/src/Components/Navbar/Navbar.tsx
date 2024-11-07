@@ -1,20 +1,22 @@
 import React from 'react'
+
 import './Navbar.css'
+import Searchbar from '../Searchbar/Searchbar.tsx'
+
 import menu_Icon from '../../assets/Icons/menu-burger_h.png'
 import logo_Icon from '../../assets/Icons/logo.png'
 import Bockmark_Icon from '../../assets/Icons/bookmark.png'
 import Bell_Icon from '../../assets/Icons/bell.png'
 import Profile_Icon from '../../assets/Icons/OneUser.png'
 
-import Searchbar from '../Searchbar/Searchbar.tsx'
-
 
 const Navbar = () => {
   return (
     <nav className='flex-div'>
+        
         <div className='nav-left flex-div'>
-            <img className = 'menu-Icon' src={menu_Icon} alt="leftside_Menu" />
-            <a href='../../Pages/Home'><img className = 'Logo' src={logo_Icon} alt="" /></a>
+            <img className = 'menu-Icon' src= {menu_Icon} alt="leftside_Menu" />
+            <a href='../../home'><img className = 'Logo' src= {logo_Icon} alt="" /></a>
         </div>
 
         <Searchbar /> 
