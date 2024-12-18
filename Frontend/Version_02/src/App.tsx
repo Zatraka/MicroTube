@@ -1,18 +1,21 @@
-import React from 'react'
+//import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import {Route, Routes} from 'react-router-dom'
-//import { Home_Link } from "./Pages/Home"
+
+//Pages
 //import home from './Pages/Home/Home'
+import Video from './Pages/Video/Video'  
   
 
 const App = () => {
   return (
     <div>
       <Navbar></Navbar>
+     
       <Routes>
 
       {/* <Route path="/" element={home} /> */}
-      <Route path="/video/:categoryId:"/>
+      <Route path="/video/:categoryId:videoId" element = {<Video/>}/>
 
       </Routes>
       {/* <Link></Link> // Home-Page*/} 

@@ -1,8 +1,9 @@
-import React from 'react'
+//import React from 'react'
 
 import './Navbar.css'
-import Searchbar from '../Searchbar/Searchbar.tsx'
 
+//ICONS
+import Searchbar from '../Searchbar/Searchbar.tsx'
 import menu_Icon from '../../assets/Icons/menu-burger_h.png'
 import logo_Icon from '../../assets/Icons/logo.png'
 import Bockmark_Icon from '../../assets/Icons/bookmark.png'
