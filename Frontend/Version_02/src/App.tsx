@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar/Navbar'
 import {Route, Routes} from 'react-router-dom'
 
 //Pages
-//import home from './Pages/Home/Home'
+import Home from './Pages/Home/Home'
 import Video from './Pages/Video/Video'  
   
 
@@ -14,7 +14,7 @@ const App = () => {
      
       <Routes>
 
-      {/* <Route path="/" element={home} /> */}
+      <Route path="/" element={<Home/>} />
       <Route path="/video/:categoryId:videoId" element = {<Video/>}/>
 
       </Routes>

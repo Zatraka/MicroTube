@@ -1,6 +1,11 @@
 
 //import React from 'react'
 import home from '../../assets/Icons/home.png'
+import aboList from '../../assets/Icons/folders.png'
+import myYoutube from '../../assets/Icons/user-gear.png'
+import history from '../../assets/Icons/time-past.png'
+
+
 
 const Sidebar = () => {
     return(
@@ -10,13 +15,13 @@ const Sidebar = () => {
                     <img src={home} alt ="icon 1"/><p>Startseite</p>
                 </div>
                 <div className="side-link">
-                    <img src={home} alt =" "/><p>Abos</p>
+                    <img src={aboList} alt =" "/><p>Abos</p>
                 </div>
                 <div className="side-link">
-                <img src={home} alt =" "/><p>Mein Youtube</p>
+                <img src={myYoutube} alt =" "/><p>Mein Youtube</p>
                 </div>
                 <div className="side-link">
-                    <img src={home} alt =" "/><p>Verlauf</p>
+                    <img src={history} alt =" "/><p>Verlauf</p>
                 </div>
                 <div className="side-link">
                     <img src={home} alt =" "/><p>Home</p>
