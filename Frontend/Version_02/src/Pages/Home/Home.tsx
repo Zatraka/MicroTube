@@ -1,14 +1,21 @@
+import React from 'react';
+import './Home.css';
+import Sidebar from '../../Components/Sidebar/Sidebar';
+import Feed from '../../Components/Feed/Feed';
 
-//import React from 'react'
-import './Home.css'
-import Sidebar from '../../Components/Sidebar/Sidebar'
-
-const home = () => {
-  return (
-    <>
-      <Sidebar></Sidebar>
-    </>
-  )
+interface HomeProps {
+  sidebar: boolean;
 }
 
-export default home
+const Home: React.FC<HomeProps> = ({ sidebar }) => {
+  return (
+    <>
+      <Sidebar sidebar={sidebar} />
+      <div className={`container ${sidebar ? "": "large-Container"}`}>
+      <Feed/>
+      </div>
+    </>
+  );
+};
+
+export default Home;

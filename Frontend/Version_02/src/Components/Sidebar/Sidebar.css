@@ -5,7 +5,7 @@
     position: fixed;
     padding-top: 80px;
     padding-left: 2%; 
-    background-color: rgb(240, 239, 239);
+    background-color: #fff;
     top: 0;
 }
 
@@ -23,4 +23,40 @@
     width: fit-content;
     flex-wrap: wrap;
     cursor: pointer;
+}
+
+.Sidebar hr {
+    border: none;
+    background: #ccc;
+    width: 85%;
+    height: 1px;
+}
+
+
+.subscribedList h3{
+    font-size: 13px;
+    margin: 20px, 10px;
+    color: #5a5a5a;
+}
+
+.subscribedList img {
+    width: 25px;
+    border-radius: 50px; /*Wie Rund das Bild sein soll.*/
+    margin-right: 20px;
+}
+
+.small-sidebar {
+    width: 5%;
+}
+
+/*sorgt dafür das der Text verschwindet wenn die Sidebar kleiner wird.*/
+.small-sidebar p{
+    display: none;
+}
+.small-sidebar h3 {
+    display: none;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
 }
