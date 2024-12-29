@@ -8,7 +8,7 @@
     height: auto;
 }
 
-.play-video h3{
+.VideoTitel{
     margin-top: 10px;
     font-weight: 600;
     font-size: 22px;
@@ -24,7 +24,7 @@
     color: #5a5a5a;
 }
 
-.like-btn , .dislike-btn {
+.play-video-info img {
     width: 20px;
     margin-right: 8px;
 }
@@ -61,7 +61,7 @@
     margin-right: 15px;
 }
 
-.channelname p{
+.publisher div p{
     color: #000;
     font-weight: 600;
     font-size: 18px;

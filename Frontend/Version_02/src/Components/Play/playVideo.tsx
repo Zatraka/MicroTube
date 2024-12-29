@@ -11,21 +11,17 @@ const playVideo = () => {
     <div className='play-video'>
         <video src={video01} controls autoPlay muted></video>
         <h3 className='VideoTitel'> Videotitel</h3>
+
         <div className="play-video-info">
             <p>12345 Views &bull; vor 2 Tagen </p>
           <div>
-            <div className="like-btn">
-              <span><img src={like} alt=''/> 20</span>
-            </div>
-            <div className="dislike-btn">
-              <span><img src={dislike} alt=''/> 12</span>
-            </div>
-            <div className="extras-btn">
-              <span><img src={like} alt=''/> Share</span>
-              <span><img src={like} alt=''/> Save</span>
-            </div>
+              <span><img src={like}     alt=''/> 20 </span>
+              <span><img src={dislike}  alt=''/> 12 </span>
+              <span><img src={like}     alt=''/> Share </span>
+              <span><img src={like}     alt=''/> Save </span>
           </div>
         </div>
+
         <hr />
         <div className='publisher'>
           <div>
