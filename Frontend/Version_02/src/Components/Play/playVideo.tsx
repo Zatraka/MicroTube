@@ -5,6 +5,8 @@ import video01 from '../../assets/Videos/test_01.mp4'
 import like from '../../assets/Icons/like_Button.png'
 import dislike from '../../assets/Icons/dislike.png'
 
+import emptyProfile from '../../assets/Images/blank_profile_picture.jpg'
+
 
 const playVideo = () => {
   return (
@@ -25,7 +27,7 @@ const playVideo = () => {
         <hr />
         <div className='publisher'>
           <div>
-            <img src={like} alt="" />
+            <img src={emptyProfile} alt="" />
             <p className='channelname'>Channelname</p>
             <span> XX Subscribers</span>
           </div>
@@ -41,15 +43,32 @@ const playVideo = () => {
             <hr />
             <h4> XXX Kommentare</h4>
             <div className='comment'>
-              <img src={like} alt="Kanal Profilebild" />
-              <h3> Kanalname des Users der den Kommetar geschrieben hat. <span>vor XX Tagen</span></h3>
-              <p>Kommentar von Nutzername</p>
-              <div className="comment-actions">
+              <img src={emptyProfile} alt="Kanal Profilebild" />
+              <div>
+                <h3> Kanalname des Users der den Kommetar geschrieben hat. <span>vor XX Tagen</span></h3>
+                <p>Kommentar von Nutzername</p>
+              
+                <div className="comment-actions">
                 <img src={like} alt='' />
                 <span>1111</span>
                 <img src={dislike} alt='' />
                 <span>1111</span>
-              </div>  
+                </div>  
+              </div>
+            </div>
+            <div className='comment'>
+              <img src={emptyProfile} alt="Kanal Profilebild" />
+              <div>
+                <h3> Kanalname des Users der den Kommetar geschrieben hat. <span>vor XX Tagen</span></h3>
+                <p>Kommentar von Nutzername</p>
+              
+                <div className="comment-actions">
+                <img src={like} alt='' />
+                <span> 1111 </span>
+                <img src={dislike} alt='' />
+                <span> 1111 </span>
+                </div>  
+              </div>
             </div>
         </div>
 
