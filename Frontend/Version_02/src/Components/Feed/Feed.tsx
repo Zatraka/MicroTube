@@ -7,14 +7,12 @@ import './Feed.css'
         Da die Bilder mit einer höheren Auflösung viel größer auf der Website dargestellt werden.
 */
 
-
 // thumbnails per JPG und 640x426 Auflösung und es sollen nur 9 Thumbnails existieren.
 import thumbnail01 from '../../assets/Images/stockmarket.jpg'
 import thumbnail02 from '../../assets/Images/sad_dog_face.jpg'
 import thumbnail03 from '../../assets/Images/lake_trees.jpg'
 import thumbnail04 from '../../assets/Images/ape_family.jpg'
 import thumbnail05 from '../../assets/Images/race_car.jpg'
-
 
 import { Link } from 'react-router-dom' // durch die Link to Funktion von React-Router-dom wollen wir auf die video Website gelangen + den Infomationen die wir brauchen.
 

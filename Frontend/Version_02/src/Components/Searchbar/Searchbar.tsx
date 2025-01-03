@@ -1,7 +1,7 @@
 
 
 import search_Icon from '../../assets/Icons/search.png'
-import './Searchbar_module.css'
+import './Searchbar.css'
 // import "../../"
 
 function Searchbar(){
