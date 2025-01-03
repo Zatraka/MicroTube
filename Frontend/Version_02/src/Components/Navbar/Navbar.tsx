@@ -37,7 +37,7 @@ const Navbar: React.FC<NavbarProps> = ({ setSidebar }) => {
         <a href="/home">
           <img className="nav-Bell" src={Bell_Icon} alt="" />
         </a>
-        <a href="/home">
+        <a>
           <Link to = {`Login`}>
             <img className="nav-Profile" src={Profile_Icon} alt="" />
           </Link>

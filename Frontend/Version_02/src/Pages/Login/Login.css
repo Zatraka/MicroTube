@@ -43,7 +43,7 @@
   
   .button-group {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 1rem;
   }
   
@@ -67,5 +67,17 @@
   
   button:hover {
     opacity: 0.9;
+  }
+  
+  .error-message {
+    color: #f44336;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
   }
   
