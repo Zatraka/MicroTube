@@ -1,11 +1,9 @@
 import React from 'react';
 import './Login.css';
 
-import { Link } from 'react-router-dom'
-
 const LoginPage: React.FC = () => {
   return (
-    <Link to = {`Login`} className="login-page">
+    <div className="login-page">
       <div className="login-box">
         <h2>Anmeldung</h2>
         <form>
@@ -23,7 +21,7 @@ const LoginPage: React.FC = () => {
           </div>
         </form>
       </div>
-    </Link>
+    </div>
   );
 };
 

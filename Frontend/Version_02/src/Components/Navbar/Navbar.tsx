@@ -1,5 +1,7 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom'
+
 import Searchbar from '../Searchbar/Searchbar.tsx';
 import menu_Icon from '../../assets/Icons/menu-burger_h.png';
 import logo_Icon from '../../assets/Icons/logo.png';
@@ -36,7 +38,9 @@ const Navbar: React.FC<NavbarProps> = ({ setSidebar }) => {
           <img className="nav-Bell" src={Bell_Icon} alt="" />
         </a>
         <a href="/home">
-          <img className="nav-Profile" src={Profile_Icon} alt="" />
+          <Link to = {`Login`}>
+            <img className="nav-Profile" src={Profile_Icon} alt="" />
+          </Link>
         </a>
       </div>
     </nav>
