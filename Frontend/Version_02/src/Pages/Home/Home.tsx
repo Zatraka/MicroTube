@@ -3,7 +3,7 @@ import './Home.css';
 import Sidebar from '../../Components/Sidebar/Sidebar';
 import Feed from '../../Components/Feed/Feed';
 
-// Props um die Sidebar ein und auszufahren.
+// Props um die Sidebar ein- und auszufahren.
 interface HomeProps {
   sidebar: boolean;
 }
