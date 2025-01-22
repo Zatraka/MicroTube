@@ -23,7 +23,7 @@ const Navbar: React.FC<NavbarProps> = ({ setSidebar }) => {
           src={menu_Icon}
           alt="leftside_Menu"
         />
-        <a href="../../home">
+        <a href="../../">
           <img className="Logo" src={logo_Icon} alt="" />
         </a>
       </div>
