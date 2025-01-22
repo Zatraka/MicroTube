@@ -35,11 +35,16 @@ const Navbar: React.FC<NavbarProps> = ({ setSidebar }) => {
           <img className="nav-upload" src={Bockmark_Icon} alt="rightside_Menu" />
         </a>
         <a href="/home">
-          <img className="nav-Bell" src={Bell_Icon} alt="" />
+          <img className="nav-Bell" src={Bell_Icon} alt="Notfication Image" />
         </a>
         <a>
           <Link to = {`Login`}>
-            <img className="nav-Profile" src={Profile_Icon} alt="" />
+            <button className="btn-Login"><img className="" src={Profile_Icon} alt="Anmeldungsbutton"/> Anmelden</button>
+          </Link>
+        </a>
+        <a>
+          <Link to = {`Profile`}>
+            <img className="nav-Profile" src={Profile_Icon} alt="Profile Bild"/>
           </Link>
         </a>
       </div>
