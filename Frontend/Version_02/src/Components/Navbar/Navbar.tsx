@@ -8,6 +8,7 @@ import logo_Icon from '../../assets/Icons/logo.png';
 import Bockmark_Icon from '../../assets/Icons/bookmark.png';
 import Bell_Icon from '../../assets/Icons/bell.png';
 import Profile_Icon from '../../assets/Icons/OneUser.png';
+//import Login_Icon from '../../assets/Icons/UserLogin.png';
 
 interface NavbarProps {
   setSidebar: React.Dispatch<React.SetStateAction<boolean>>;
@@ -31,19 +32,21 @@ const Navbar: React.FC<NavbarProps> = ({ setSidebar }) => {
       <Searchbar />
 
       <div className="nav-right flex-div">
-        <a href="/home">
+        <Link to = {`Kanal`}>
           <img className="nav-upload" src={Bockmark_Icon} alt="rightside_Menu" />
-        </a>
-        <a href="/home">
+        </Link>
+        <Link to = {`Kanal`}>
           <img className="nav-Bell" src={Bell_Icon} alt="Notfication Image" />
-        </a>
+        </Link>
         <a>
           <Link to = {`Login`}>
-            <button className="btn-Login"><img className="" src={Profile_Icon} alt="Anmeldungsbutton"/> Anmelden</button>
+            <button className="btn-Login">
+              {/*<img className="nav-Login_Icon" src={Login_Icon} alt="Anmeldungsbutton"/>*/}Anmelden
+            </button>
           </Link>
         </a>
         <a>
-          <Link to = {`Profile`}>
+          <Link to = {`Kanal`}>
             <img className="nav-Profile" src={Profile_Icon} alt="Profile Bild"/>
           </Link>
         </a>

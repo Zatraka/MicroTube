@@ -29,12 +29,11 @@ nav{
 }
 
 .nav-right .nav-bell {
-width: 35px;
-border-radius: 50%;
+    width: 35px;
+    border-radius: 50%;
 }
 
-.nav-right .nav-Profile
-{
+.nav-right .nav-Profile {
     height: 25px;
     width: 30px;
     border-radius: 50%;
@@ -47,9 +46,18 @@ border-radius: 50%;
 }
 
 .btn-Login{
-    color: #1DA1F2;
-    padding: 10px 20px;
-    border: none;
+    color: #0d98e9;
+    background-color: #fff;
+    border-color: #0d98e9;
+    padding: 5px 10px;
     border-radius: 15%;
     cursor: pointer;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+.nav-Login_Icon{
+    border: none;
+    align-items: center;
 }
